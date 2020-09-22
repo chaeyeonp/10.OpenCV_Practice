@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 
 #마우스 움직임에 따라 그림 그릴 수 있는 사용자 정의 함수
-def on_mouse():
-    print("마우스 이벤트 처리")
+def on_mouse(event, x,y, flags, param):
+    print(x,y,flags)
 
 
 #도화지
