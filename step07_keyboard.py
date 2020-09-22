@@ -1,3 +1,6 @@
+# 마우스를 이용한 그리기
+#
+
 import cv2
 import matplotlib.pyplot as pyplot
 import sys
